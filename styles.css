@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d3d3d3;
+    background-image: linear-gradient(315deg, #d3d3d3 0%, #7bed9f 74%);
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+  }
+  
+  .gif_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 800px;
+    background: url('img/hart.png') center/cover no-repeat;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: black;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
