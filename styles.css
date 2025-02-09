@@ -17,8 +17,7 @@ body {
     transform: translate(-50%, -50%);
     width: 1000px;
     height: 800px;
-    background: url('img/hart.png') center/cover no-repeat;
-    opacity: 0.8;
+    background: url('img/hapart.png') center/cover no-repeat;
     z-index: -1;
   }
   .container {
@@ -59,7 +58,8 @@ body {
   }
   
   .gif_container img {
-    max-width: 100%;
+    width: 300px;
+    height: 300px;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
